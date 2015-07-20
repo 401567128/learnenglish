@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>“UP”学习网介绍</title>
+	<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
+	<meta name="description" content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
+	<link rel="image_src" href="/images/notify_better_image.png" />
+
+	<meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url" />
+	<meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" />
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<meta name="author" content="Pete R.">
+	<link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+  	<link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <link href='css/demo.css' rel='stylesheet' type='text/css'>
+  	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main"> 
+      	<section class="page1">
+      		<div class="page_container">
+              <h1>Welcome &nbsp;&nbsp;to&nbsp;&nbsp;"up"</h1>
+              <h2>这是一个学习英语的网站，你可以在此学习英语，得到你想要的知识</h2>
+              <p class="credit">welcome <a href="#">to </a>up <a href="#" target="_blank">up</a></p>
+          	<div class="btns">
+  	        	<a class="reload btn" href="index.html">进入课程学习</a>
+  	      	</div>
+  	    </div>
+      </section>
+	  <section class="page2">
+	      <div class="page_container">
+              <h1>Come On</h1>
+              <h2>你可以选择自己喜欢的想要学<span class="diff"><a href="index.html">English</a></span>课程，进行无限畅想学习</h2>
+	      </div>
+      </section>
+	  <section class="page3">
+	      <div class="page_container">
+          	<h1>Pretty Neat Eh?</h1>
+          	<h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up 				with. Don't forget to grab them for free on Github'</h2>
+          <div class="btns">
+  	        <a class="reload btn" href="index.html">进入课程学习</a>
+  	      </div>
+  	    </div>
+      </section>
+	  <section class="page4">
+	  	<div class="page_container">
+          <h1>Pretty Neat Eh?</h1>
+          <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
+       	 	<div class="btns">
+  	        	<a class="reload btn" href="index.html">进入课程学习</a>
+  	    	</div>
+  	    </div>
+      </section>
+      <section class="page5">
+          <div class="page_container">
+              <h1>CONTACT US</h1>
+              <h2>If you have a few problems, you can contact us in the following way.</h2>
+           <div class="foot">如果你遇到什么问题的话，你可以采用以下方式和我们取得联系。</div>
+           <form>
+                 <div class="nm">Name:</div>
+                 	<input type="text" name="textfield" id="textfieldone" class="textfield"><p>
+                 <div class="em">Email Address:</div>
+                	 <input type="text" name="textfield" id="textfieldtwo" class="textfield"><p>
+                 <div class="mess">Message:</div>
+                 	<textarea name="textarea" class="textareaone" cols="40" tows="8"></textarea><p>
+                 <div class="anniu">
+                     <input type="submit" class="subm" name="submit" value="Send" dass="submit"/>
+                     <input type="submit" class="sbm" name="submit" value="Reset" dass="submit"/>
+                 </div>
+           </form>
+          </div>
+      </section>
+    </div>
+    <div class="back">
+    	<ul>
+    		<li><a href"demo.html">首页</a></li>
+            <li><a href"index.html">课程</a></li>
+            <li><a href"community.html">社区</a></li>
+        </ul>
+    </div>
+  </div>
+</body>
+</html>

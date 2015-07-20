@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	height: 100%;
+	font-family:微软雅黑;
+}
+
+.box {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699ff', endColorstr='#6699FF'); /*  IE */
+	background-image:linear-gradient(bottom, #6699FF 0%, #6699FF 100%);
+	background-image:-o-linear-gradient(bottom, #000 0%, #000 100%);
+
+	background-image:-webkit-linear-gradient(bottom, #000 0%, #000 100%);
+
+	background:url(../images/3.jpg);
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.login-box {
+	width: 100%;
+	max-width:400px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	
+
+	margin-top: -230px;
+	/*设置负值，为要定位子盒子的一半高度*/
+	
+}
+@media screen and (min-width:500px){
+	.login-box {
+	left: 50%;
+	/*设置负值，为要定位子盒子的一半宽度*/
+	margin-left: -200px;
+		
+	}
+}	
+
+.form {
+	width: 100%;
+	max-width:360px;
+	height: 390px;
+	margin: 25px auto 0px auto;
+	padding-top: 1px;
+}	
+.login-content {
+	height: 390px;
+	width: 100%;
+	max-width:500px;
+	background-color: rgba(246, 246, 246,  .9);
+	float: left;
+    -moz-border-radius: 0px 0px 5px 5px;     
+    -webkit-border-radius: 0px 0px 5px 5px; 
+    border-radius:0px 0px 5px 5px;
+	box-shadow:-2px 0 2px #999, /*左边阴影*/  
+    2px 0 2px #999, /*右边阴影*/  
+    0 2px 2px #999; /*底边阴影*/  
+}		
+	
+	
+.input-group {
+	margin: 0px 0px 31px 0px !important;
+}
+.form-control,
+.input-group {
+	height: 38px;
+}
+
+.form-group {
+	margin-bottom: 0px !important;
+}
+.login-title {
+	padding: 15px 15px;
+	-moz-border-radius: 5px 5px 0px 0px;    
+    -webkit-border-radius: 5px 5px 0px 0px;  
+    border-radius:3px 3px 0px 0px; 
+    box-shadow:-2px 0 2px #666, /*左边阴影*/  
+    2px 0 2px #666, /*右边阴影*/  
+    0 -2px 2px #666; /*顶部阴影*/
+	background:url(../images/zhuce.jpg);      
+}
+.login-title h1 {
+	margin-top: 10px !important;
+}
+.login-title small {
+	color: #fff;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.link p {
+	line-height: 20px;
+	margin-top: 30px;
+	margin-left:-100px;
+	
+}
+.btn-sm {
+	padding: 8px 22px !important;
+	font-size: 16px !important;
+	bankground:#f6f6f6;
+}
+#wrong{
+	margin-left:20px;
+	margin-top:-26px;
+	padding:0 0 6px 0;
+	color:red;
+}
+#wrongtwo{
+	height:25px;
+	margin-left:100px;
+	margin-top:-25px;
+	padding:0 0 6px 0;
+	color:red;
+}
+

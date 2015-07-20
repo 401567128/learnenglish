@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+.all{
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+
+}
+.all-left{
+	width:250px;
+	height:800px;
+
+	float:left;
+}
+.all-right{
+	width:860px;
+	height:800px;
+
+	float:right;
+}
+.head-pic img{
+	width:80px;
+	height:80px;
+	position:absolute;
+	border-radius:100px;
+}
+.admin-name{
+	position:absolute;
+	margin-left:95px;
+	margin-top:7px;
+	font-size:18px;
+	
+}
+.sign-write{
+	width:240px;
+	height:20px;
+	border:none;
+	position:absolute;
+	margin-top:90px;
+	margin-left:5px;
+	
+}
+.xuesheng{
+	position:absolute;
+	margin-top:37px;
+	margin-left:97px;
+	color:#999;
+	font-size:12px;
+	
+}
+.shezhi{
+	position:absolute;
+	margin-top:65px;
+	margin-left:97px;
+	color:#000;
+	font-size:12px;
+}
+.shezhi a:hover{
+	color:#999;
+}
+.mine{
+	list-style:none;
+}
+.mine ul{
+	width:250px;
+	margin-top:130px;
+}
+
+.mine ul li{
+	width:250px;
+	height:60px;
+	border-bottom:1px solid #edf1f2;
+	line-height:60px;
+	text-align:center;
+	
+}
+.mine ul li a{
+	font-size:16px;
+	font-weight:;
+}
+.mine ul li a:hover{
+	text-decoration:none;
+	color:#f74b35;
+}
+.active{
+	color:#f74b35 !important;
+	background:none !important;
+}
+.my-curise{
+	font-size:18px;
+	color:#000;
+	margin-left:30px;
+	margin-top:10px;
+}
+.list-one{
+	height:40px;
+	background-color:#f9f9f9;
+	border-top:1px solid #d0d6d9;
+	margin-top:10px;
+}
+.list-one ul{
+	list-style:none;
+	margin-left:15px;
+}
+.list-one ul li{
+	width:80px;
+	line-height:40px;
+	text-align:center;
+	float:left;
+}
+.list-one ul li a{
+	text-decoration:none;
+}
+.list-one ul li a:hover{
+	color:#f74b35;
+}
+.list-two ul{
+	margin-top:0px;
+	list-style:none;
+}
+.list-two ul li{
+	width:860px;
+	height:210px;
+	line-height:200px;
+	border-bottom:1px solid #edf0f2;
+}
+.first{
+	line-height:210px;
+	margin-top:10px;
+	margin-left:-255px;
+}
+.jindu{
+	width:220px;
+	height:40px;
+	background:#f0f2f4;
+	margin-top:140px;
+	position:absolute;
+	line-height:40px;
+	font-size:18px;
+}
+.name-one{
+	margin-top:-260px;
+	margin-left:260px;
+	position:relative;
+}
+.name-two{
+	margin-top:-165px;
+	margin-left:260px;
+	position:relative;
+	font-size:12px;
+	color:#b5c3d6;
+}
+.name-three{
+	position:relative;
+	margin-top:-85px;
+	margin-left:20px;
+	color:white;
+	cursor:pointer
+}
+.bg-study{
+	width:102px;
+	height:30px;
+	background:#00b33b;
+	margin-top:-30px;
+	margin-left:260px;
+	position:absolute;
+}
+.bg-study:hover{
+	background:#00d244;
+}

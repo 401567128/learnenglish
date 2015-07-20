@@ -1,0 +1,174 @@
+/*!
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+*{
+	margin:0px;
+	padding:0px;
+	font-family:微软雅黑;
+}
+body{
+	background:url(../images/5.jpg) !important;
+}
+
+
+.navbar{
+	background:red;
+}
+
+.active{
+	font-family:微软雅黑;
+	font-size:14px;
+	color:red;
+}
+.navbar-form navbar-left.btn btn-default{
+	font-family:微软雅黑;
+	font-size:28px;
+}
+.nav navbar-nav navbar-right li{
+	font-family:微软雅黑;
+	font-size:14px;
+}
+.dropdown-toggle{
+	font-family:微软雅黑;
+	font-size:14px;
+}
+.sousuo{
+	font-size:14px;
+}
+.sub-header{
+	margin-top:0px;
+}
+td.question{
+	background:#fff;
+	color:#333;
+	height:40px;
+	font-size:20px;
+	line-height:80px;
+}
+.btn-default-2{
+	margin-top:20px;
+	margin-left:220px;
+	background:#6CF;
+}
+
+
+.bbt{
+	width:50px;
+	height:30px !important;
+	border-radius:3px;
+	
+}
+.shouye{
+	font-size:14px;
+}
+a {
+outline: none !important;
+}
+.tijiao{
+	margin-left:190px;
+	
+}
+.media{
+	margin-top:50px;
+	margin-left:50px;
+}
+blockquote{
+	text-indent:0px;
+	line-height:25px;
+}
+p{	
+	max-width:800px;
+	margin:0 auto !important;
+}
+.foo{
+	margin-top:20px;
+}
+.footer{
+	height:40px;
+	background:#000;
+	line-height:40px;
+	text-align:center;
+}
+.nav-dd ul{
+	list-style:none;
+}
+.nav-dd ul li{
+	width:90px;
+	height:22px;
+	line-height:22px;
+	color:#999;
+	float:left;
+	text-decoration:none;
+}
+.nav-dd ul li a{
+	color:black;
+	text-align:center;
+}
+.nav-dd ul li a:hover{
+	text-decoration:none;
+	color:#f74b35;
+}
+.cjs-course-lists ul{
+	margin-left:200px !important;
+}
+.course-one{
+	margin-left:60px !important;
+	
+}
+.course-content{
+	margin-top:-20px;
+	background:url(../images/5.jpg) !important;
+}
+.main{
+	
+
+}
+.container{
+	background:url(../images/5.jpg) !important;
+}
+	
+.navbar navbar-inverse{
+	background:#fff;
+}
+.container-fluid{
+	
+}
+.active{
+	background:red !important;
+}
+.tiao{
+	height:60px;
+	color:white;
+	margin-left:34px;
+}
+.tiao a{
+	text-decoration:none;
+	color:white !important;
+	line-height:60px;
+	text-decoration:none !important;
+}
+.tiao a:hover{
+	color:#fa7d6b !important;
+}
+video{
+	margin-top:0px;
+}
+.biaoti{
+	height:40px;
+	font-size:20px;
+	font-family:"微软雅黑";
+	margin-left:80px;
+	margin-top:-7px;
+}
+.vvv{
+	width:1200px;
+	height:530px;
+	background:#000;
+}
+.acti{
+	color:#f74b35 !important;
+	text-decoration:none;
+}
+
